@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: green;
+	text-align: center;
+	padding: 20px 0;
+}
+
+header img{
+	width: 300px;
+	border-radius: 300px;
+	border: 20px solid darkgoldenrod;
+}
+
+h1, h2{
+	font-family: Architects Daughter, cursive;
+}
+
+h1{
+	color: goldenrod;
+	font-size: 60px;
+	
+}
