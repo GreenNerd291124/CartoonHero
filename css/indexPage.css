@@ -1,11 +1,13 @@
 body{
 	margin: 0;
+	font-size: 30px;
+	background-color: lightgoldenrodyellow;
 }
 
 header{
 	background-color: green;
 	text-align: center;
-	padding: 20px 0;
+	padding: 30px 0;
 }
 
 header img{
@@ -16,10 +18,80 @@ header img{
 
 h1, h2{
 	font-family: Architects Daughter, cursive;
+	text-align: center;
 }
 
 h1{
 	color: goldenrod;
 	font-size: 60px;
 	
+}
+
+h2{
+	font-size: 40px;
+	color: green;
+}
+
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px 20px 40px;
+	color: #776008;
+	line-height: 40px;
+	font-family: Sacramento, cursive;
+}
+
+main img{
+	max-width: 1180px;
+	border: 10px solid darkgoldenrod;
+}
+
+a{
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+
+ol{
+	background-color: palegoldenrod;
+	list-style: lower-roman inside;
+	margin: 0;
+	text-align: center;
+}
+
+ul{
+	background-color: #fffca7;
+	max-width: 800px;
+	margin: 0 auto;
+	list-style: disc inside;
+	padding: 20px;
+}
+
+li{
+	font-size: 35px;
+	color: green;
+	line-height: 40px;
+}
+
+a:hover{
+	color: mediumblue;
+}
+
+footer{
+	background-color: green;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+}
+
+footer p{
+	color: goldenrod;
+	font-size: 30px;
+	font-family: Architects Daughter, cursive;
+}
+
+.caption{
+	color: grey;
+	margin-top: 0;
+	text-align: center;
+	font-style: italic;
 }
